@@ -25,6 +25,11 @@
         "files": [
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\": "./test/"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {

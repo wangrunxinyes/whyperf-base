@@ -22,4 +22,9 @@ class App extends AbstractSystemConfig
             MultiTenantMW::class,
         ];
     }
+
+    function getAuditSamplingRate(): int
+    {
+        return 0;
+    }
 }
